@@ -1,6 +1,7 @@
-### Colcar Challenge App
+# Colcar Challenge App
 
-# ¿Qué es? 
+Construída con React y un mock en javascript.
 
+Deployada en Netlify con su propio CI.
 
- 
+### https://colcar-infractions-challenge.netlify.app/
