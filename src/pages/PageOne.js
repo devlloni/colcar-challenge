@@ -12,7 +12,8 @@ const PageOne = () => {
     const [preloadData, setPreloadData] = useState(InfractionDate);
     const [results, setResults] = useState(preloadData);
 
-    const onSearch = () => {
+    const onSearch = (e) => {
+        e.preventDefault();
         if(searchText.length < 1) return setResults(preloadData);
         const result = preloadData.filter(infraction => infraction.dni === Number(searchText));
         setResults(result);
