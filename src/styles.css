@@ -1,0 +1,96 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css);
+ @import url(//fonts.googleapis.com/icon?family=Material+Icons);
+ .pagination li.active {
+	 background-color: #129046;
+}
+ .secondary-content {
+	 color: #23ad35;
+}
+ .btn-large {
+	 background-color: #129046;
+	 min-width: 190px;
+}
+ select {
+	 min-width: 190px;
+}
+ .parallax-container {
+	 height: 400px;
+}
+ footer.page-footer {
+	 margin-top: 0px;
+	 padding-top: 20px;
+	 background-color: #232323;
+}
+ nav .brand-logo {
+	 padding: 5px;
+}
+ .white {
+	 box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+ header {
+	 padding-left: 20px;
+}
+ nav {
+	 width: 100%;
+	 position: relative;
+	 top: 0px;
+	 left: 0px;
+	 z-index: 999;
+	 background-color: rgba(255, 255, 255, 1);
+	 box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+ nav ul li {
+	 padding: 1px;
+}
+ nav ul a {
+	 color: #129046;
+}
+ .modal {
+	 min-width: 406px;
+	 overflow-y: visible;
+	 overflow-x: visible;
+	 position: fixed;
+}
+ .modal-content {
+	 text-align: center;
+}
+ .modal-content {
+	 color: rgba(255, 255, 255, 0.999);
+}
+ .modal {
+	 max-height: 100%;
+	 background: rgba(0, 0, 0, .85);
+}
+ .col s12 {
+	 background: rgba(0, 0, 0, .5);
+}
+ .modal .modal-footer {
+	 background: rgba(0, 0, 0, .2);
+}
+ .input-field input[type=text].valid, .input-field input[type=password].valid, .input-field input[type=email].valid, .input-field input[type=url].valid, .input-field input[type=date].valid, .input-field input[type=tel].valid, .input-field input[type=number].valid, .input-field input[type=search].valid, .input-field textarea.materialize-textarea.valid {
+	 border-bottom: 1px solid #00fff5;
+	 -webkit-box-shadow: 0 1px 0 0 #4caf50;
+	 -moz-box-shadow: 0 1px 0 0 #4caf50;
+	 box-shadow: 0 1px 0 0 #00ff0a;
+}
+ .btn-flat {
+	 color: #129046;
+	 padding-left: 8px;
+	 padding-right: 8px;
+	 font-size: 12px;
+}
+ .btn {
+	 background-color: #129046;
+	 height: 34px;
+	 margin: 8px;
+	 font-size: 12px;
+	 box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.30), 0 17px 50px 0 rgba(0, 0, 0, 0.1);
+}
+ .parallax img {
+	 color: rgba(0, 0, 0, 0.5);
+	 height: 100%;
+	 width: 100%;
+	 background-size: cover;
+	 background-position: center;
+}
+ 
